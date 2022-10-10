@@ -10,11 +10,11 @@ const Time = () => {
 
     let greeting = () => {
         if (today.getHours() >= 5 && today.getHours() < 11) {
-            return 'Good Morning, Clint.'
+            return 'Good Morning, Daniel'
         } else if (today.getHours() >= 11 && today.getHours() < 17) {
-            return 'Good Afternoon, Clint.'
+            return 'Good Afternoon, Daniel'
         } else if (today.getHours() >= 17 && today.getHours() < 24) {
-            return "Good Evening, Clint."
+            return 'Good Evening, Daniel'
         } else {
             return 'What are you doing up at this hour?'
         }
